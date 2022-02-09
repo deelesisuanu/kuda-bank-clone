@@ -1,18 +1,18 @@
 {
-  "_from": "kuda-quick-node",
-  "_id": "kuda-quick-node@1.0.3",
+  "_from": "kuda-quick",
+  "_id": "kuda-quick@1.0.3",
   "_inBundle": false,
   "_integrity": "sha512-SpCEaaofiAHwVWpnLjOLxNB4+WCDxV1DqbmJvg78xacgRUP3k3ZNHOJ5zHpbF5AmAZVjnh2ao0uCi/9EVOR6Ww==",
-  "_location": "/kuda-node",
+  "_location": "/kuda-quick",
   "_phantomChildren": {
     "ms": "2.0.0"
   },
   "_requested": {
     "type": "tag",
     "registry": true,
-    "raw": "kuda-node",
-    "name": "kuda-node",
-    "escapedName": "kuda-node",
+    "raw": "kuda-quick",
+    "name": "kuda-quick",
+    "escapedName": "kuda-quick",
     "rawSpec": "",
     "saveSpec": null,
     "fetchSpec": "latest"
@@ -23,7 +23,7 @@
   ],
   "_resolved": "https://registry.npmjs.org/kuda-node/-/kuda-node-1.0.3.tgz",
   "_shasum": "e1cddeaace307a0544912d21d1d018f4b1835a1c",
-  "_spec": "kuda-quick-node",
+  "_spec": "kuda-quick",
   "_where": "C:\\Users\\deele\\OneDrive\\Documents\\JessePay\\kuda-src",
   "author": {
     "name": "Deelesi Suanu",
@@ -50,14 +50,14 @@
     "eslint-plugin-promise": "^4.2.1",
     "eslint-plugin-standard": "^4.0.1"
   },
-  "homepage": "https://github.com/kudabank/openapi-node#readme",
+  "homepage": "https://github.com/deelesisuanu/kuda-bank-clonee#readme",
   "keywords": [],
   "license": "ISC",
   "main": "index.js",
-  "name": "kuda-quick-node",
+  "name": "kuda-quick",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/kudabank/openapi-node.git"
+    "url": "git+https://github.com/deelesisuanu/kuda-bank-clone.git"
   },
   "scripts": {
     "lint": "eslint . --fix",
