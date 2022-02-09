@@ -1,0 +1,67 @@
+{
+  "_from": "kuda-quick-node",
+  "_id": "kuda-quick-node@1.0.3",
+  "_inBundle": false,
+  "_integrity": "sha512-SpCEaaofiAHwVWpnLjOLxNB4+WCDxV1DqbmJvg78xacgRUP3k3ZNHOJ5zHpbF5AmAZVjnh2ao0uCi/9EVOR6Ww==",
+  "_location": "/kuda-node",
+  "_phantomChildren": {
+    "ms": "2.0.0"
+  },
+  "_requested": {
+    "type": "tag",
+    "registry": true,
+    "raw": "kuda-node",
+    "name": "kuda-node",
+    "escapedName": "kuda-node",
+    "rawSpec": "",
+    "saveSpec": null,
+    "fetchSpec": "latest"
+  },
+  "_requiredBy": [
+    "#USER",
+    "/"
+  ],
+  "_resolved": "https://registry.npmjs.org/kuda-node/-/kuda-node-1.0.3.tgz",
+  "_shasum": "e1cddeaace307a0544912d21d1d018f4b1835a1c",
+  "_spec": "kuda-quick-node",
+  "_where": "C:\\Users\\deele\\OneDrive\\Documents\\JessePay\\kuda-src",
+  "author": {
+    "name": "Deelesi Suanu",
+    "email": "deelesisuanu@gmail.com",
+    "url": "https://deelesisuanu.com"
+  },
+  "bugs": {
+    "url": "https://github.com/kudabank/openapi-node/issues"
+  },
+  "bundleDependencies": false,
+  "dependencies": {
+    "axios": "^0.19.0",
+    "node-jsencrypt": "^1.0.0",
+    "rsa-xml": "^0.1.5",
+    "shortid": "^2.2.15"
+  },
+  "deprecated": false,
+  "description": "NodeJS wrapper for making secure request to Kuda API",
+  "devDependencies": {
+    "eslint": "^6.7.2",
+    "eslint-config-standard": "^14.1.0",
+    "eslint-plugin-import": "^2.19.1",
+    "eslint-plugin-node": "^10.0.0",
+    "eslint-plugin-promise": "^4.2.1",
+    "eslint-plugin-standard": "^4.0.1"
+  },
+  "homepage": "https://github.com/kudabank/openapi-node#readme",
+  "keywords": [],
+  "license": "ISC",
+  "main": "index.js",
+  "name": "kuda-quick-node",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kudabank/openapi-node.git"
+  },
+  "scripts": {
+    "lint": "eslint . --fix",
+    "start": "node index"
+  },
+  "version": "1.0.3"
+}
