@@ -10,7 +10,7 @@ const { RSAEncrypt, RSADecrypt } = require('./algorithms/rsa')
  * @param {object} param => publicKeyPath, privateKeyPath, clientKey
  * @return {function} request function
  */
-function Kuda (param) {
+function Kuda(param) {
   if (!param) return console.log('Error: publicKey, privateKey, clientKey are required!')
 
   let { publicKey, privateKey } = param
@@ -31,7 +31,7 @@ function Kuda (param) {
    * @param {function} callback gets called with the result(data) object
    * @return {object} data return decrypted data response object
    */
-  async function request (params, callback) {
+  async function request(params, callback) {
     if (!params) return console.log('Error: serviceType, requestRef and data are required!')
 
     const { serviceType, requestRef, data } = params
@@ -50,8 +50,9 @@ function Kuda (param) {
 
       // make encrypted api request to Kuda Bank
       // const { data: encryptedResponse } = await axios.post('https://kudaopenapi.azurewebsites.net/v1', {
-      const { data: encryptedResponse } = await axios.post('https://kuda-openapi-uat.kudabank.com/v1', {
-        data: encryptedPayload
+      // const { data: encryptedResponse } = await axios.post('https://kuda-openapi-uat.kudabank.com/v1', {
+      const { data: encryptedResponse } = await axios.post('https://kuda-openapi.inkuda.com/v1', {
+          data: encryptedPayload
       }, {
         headers: {
           password: encryptedPassword
