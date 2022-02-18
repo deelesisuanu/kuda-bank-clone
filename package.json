@@ -1,6 +1,6 @@
 {
   "_from": "kuda-quick",
-  "_id": "kuda-quick@1.0.5",
+  "_id": "kuda-quick@1.0.6",
   "_inBundle": false,
   "_integrity": "sha512-SpCEaaofiAHwVWpnLjOLxNB4+WCDxV1DqbmJvg78xacgRUP3k3ZNHOJ5zHpbF5AmAZVjnh2ao0uCi/9EVOR6Ww==",
   "_location": "/kuda-quick",
@@ -21,7 +21,7 @@
     "#USER",
     "/"
   ],
-  "_resolved": "https://registry.npmjs.org/kuda-node/-/kuda-node-1.0.5.tgz",
+  "_resolved": "https://registry.npmjs.org/kuda-node/-/kuda-node-1.0.6.tgz",
   "_shasum": "e1cddeaace307a0544912d21d1d018f4b1835a1c",
   "_spec": "kuda-quick",
   "_where": "C:\\Users\\deele\\OneDrive\\Documents\\JessePay\\kuda-src",
@@ -63,5 +63,5 @@
     "lint": "eslint . --fix",
     "start": "node index"
   },
-  "version": "1.0.5"
+  "version": "1.0.6"
 }
